@@ -2,4 +2,6 @@
 
 ## Part 1
 
-![](branch_diagram.jpg)
+![](branch_diagram.png)
+
+## Part 2
