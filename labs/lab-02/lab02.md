@@ -18,3 +18,5 @@ https://github.com/Aquilafer/PullReq.git
 ![](git_diff.png)
 
 ![](git_tag.png)
+
+https://github.com/oakleyaidan21/OSSProjectIdeas.git

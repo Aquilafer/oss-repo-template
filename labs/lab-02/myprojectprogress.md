@@ -1,1 +1,0 @@
-Honestly, I think I'm a bit over my head, but it seems like there is good documentation so learning souldn't be too hard. I don't expect a ton of people (>10) to be working on this project at a time so a common repository should be fine for now.
