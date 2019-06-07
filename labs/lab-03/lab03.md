@@ -17,14 +17,14 @@ When I click on the page, it gets stuck like this:
 According to "git ls-files -z | xargs -0 wc -l"
 Lines of Code: 761878
 
-First Commit:
-2017-09-15
+First Commit: <br />
+2017-09-15 <br />
 b1b4078cba4e1b682c7e636a207768d1bf628d10
 
 ![](first_commit.png)
 
-Last Commit:
-2019-01-17
+Last Commit: <br />
+2019-01-17 <br />
 e811722cc8c9e22941272da568a0f42509d60c76
 
 ![](final_commit_1.png)
@@ -35,8 +35,12 @@ Current branches: 1
 
 ### Gitstats
 
-Contributors:  18
-Lines of Code: 525352
-First Commit:  2017-09-15
+Contributors:  18 <br />
+Lines of Code: 525352 <br />
+First Commit:  2017-09-15 <br />
 Last Commit:   2019-01-16
+
+### Gource
+
+![](gource.gif)
 
