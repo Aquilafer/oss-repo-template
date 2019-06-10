@@ -2,6 +2,21 @@
 
 ## Part 1
 
+### Latex
+
+$$ \sqrt{1 + 2 \sqrt{1 + 3 \sqrt{1 + 4 \sqrt{1 + \cdots}}}} $$
+
+$$ {\sqrt{2}}^{\sqrt{2}^{\sqrt{2}^{\sqrt{2} \cdots}}} $$
+
+$$
+\left[\begin{array}{cccc}
+1 & 1 & 1 & 1 \\
+-1 & 1 & -1 & 1 \\
+-1 & -1 & 1 & 1 \\
+1 & -1 & -1 & 1
+\end{array}\right]
+$$
+
 ## Part 2: AutoGrading
 
 ### Manual
