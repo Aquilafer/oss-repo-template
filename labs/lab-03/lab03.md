@@ -17,6 +17,9 @@ $$
 \end{array}\right]
 $$
 
+Result:
+![](latex_eqn.png)
+
 ## Part 2: AutoGrading
 
 ### Manual
