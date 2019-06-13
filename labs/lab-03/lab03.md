@@ -2,6 +2,10 @@
 
 ## Part 1
 
+### Wiki
+
+Link: https://github.com/Aquilafer/oss-repo-template/wiki/Project-Outline
+
 ### Latex
 
 $$ \sqrt{1 + 2 \sqrt{1 + 3 \sqrt{1 + 4 \sqrt{1 + \cdots}}}} $$
@@ -67,6 +71,8 @@ Last Commit: <br />
 2019-04-05 <br />
 cc3b6e9b5373ea4e828ad21be22a9bed023370de
 
+Current branches: 1
+
 #### Late
 
 Number of contributors: 13
@@ -93,6 +99,8 @@ First Commit: <br />
 Last Commit: <br />
 2019-06-06
 
+Current branches: 11
+
 ### Gitstats
 
 #### AutoGrading
@@ -101,6 +109,7 @@ Contributors:  18 <br />
 Lines of Code: 525352 <br />
 First Commit:  2017-09-15 <br />
 Last Commit:   2019-01-16
+Current branches: 1
 
 #### Automatic Door Control
 
@@ -108,6 +117,7 @@ Contributors:  3 <br />
 Lines of Code: 1068 <br />
 First Commit:  2018-06-26 <br />
 Last Commit:   2019-04-15
+Current branches: 1
 
 #### Late
 
@@ -115,6 +125,7 @@ Contributors:  13 <br />
 Lines of Code: 38850 <br />
 First Commit:  2018-09-07 <br />
 Last Commit:   2019-06-07
+Current branches: 11
 
 #### Open Circuits
 
@@ -122,6 +133,11 @@ Contributors:  16 <br />
 Lines of Code: 15335 <br />
 First Commit:  2017-03-22 <br />
 Last Commit:   2019-06-06
+Current branches: 11
+
+### Comparison
+
+I tended to have more trouble with github that the rest of the group leading to those weird infinite-load errors that I detailed above. Gitstats tended to be very accurate at recording the stats. The only major difference was that Gitstats would get a different number of lines of code than the manual search. If I could guess, this is likely due to different criteria on what counts as "code" when counting lines.
 
 ### Gource
 
