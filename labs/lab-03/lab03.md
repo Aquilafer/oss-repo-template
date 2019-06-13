@@ -22,9 +22,9 @@ Result:
 
 ## Part 2:
 
-### AutoGrading
+### Manual
 
-#### Manual
+#### AutoGrading
 
 Unable to find number of contributors
 
