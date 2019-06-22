@@ -86,18 +86,18 @@ for the Tor network.
 
 Tor, also known as The Onion Router, uses layers of encryption (like an onion)
 combined with a relay network to give the closest thing to true anonymity
-on the internet. The relays bounce the users signals between several relay
+on the internet. The relays bounce the users' signals between several relay
 points which obscures the location of the users, while a layered encryption
 network obscures the data traveling between the users and the servers they
 access. The significance of the Tor project itself is evident in its ability
 to protect people whose freedom of speech puts them in danger such as political
 activists, whistle-blowers, and victims of violence. The Tor Project itself
-is heavily dependent on relays which are either bought using donations or
-set up by volunteers. The Nyx tool makes it easier for relay hosts operate
+is heavily dependent on relays which are used to increase the security of
+the network. The Nyx tool makes it easier for relay hosts operate
 relays making it more feasible for businesses and volunteers to set up these
 relays for the Tor network.
 
-Nyx is mostly written in python with some HTML and javascript [3] which are
+Nyx is mostly written in Python 3.0 with some HTML and javascript [3] which are
 for the web elements. Python was probably chosen due to its ease to program
 in and its open source license. I personally have a lot of experience in
 Python and have been programming in it since Sophomore year of high school.
@@ -113,7 +113,7 @@ Nyx technically has 13 contributors, though most of the work (>90%) is done
 by the developer. A closer inspection suggests that the main developer does
 the majority of the work and new contributors jump in for a few days (no more
 than a few months) to push some new updates before abandoning the project
-[6]. This would explain the disparity in workload though does not say great
+[6]. This would explain the disparity in workload though it does not say great
 things for anyone trying to make a more permanent position for themselves
 here. I scored Nyx a one because I wasn't exactly happy with the distribution
 of work amongst the contributors and would prefer if there were more people
@@ -148,10 +148,10 @@ stupid questions, I considered it unlikely that there would be any of the
 usual backlash that one might find from a more commonly used program. Nevertheless,
 I searched for the most popular Nyx web communities though even the most
 popular still only ever had a few people. I found a blog with a decent discussion
-[10] as well as a keyworded tor.stackexchange question. Neither had many
+[10] as well as a keyworded tor.stackexchange with a list of questions. Neither had many
 people talking; the Project Analysis Activity suggested to find articles
 with at least five people and 15 replies; only the blog post hit 15 replies
-(exactly 15 btw), while the most active stackexchange forum had 5 replies/comments
+(exactly 15), while the most active stackexchange forum had 5 replies/comments
 aside from the original question. I'm not exactly happy with the number of
 samples I've found, though all of the ones I did find were extremely polite
 with users giving patient answers and thanking each other for any help with
@@ -160,7 +160,7 @@ in large, but I still didn't find very much. Apparently, the community is
 so obscure that the first Google search for "tor community" is to a Star
 Wars site [12]. Overall, I wanted to give the Nyx community a perfect score
 for this category, but I couldn't because the community was really too small
-and didn't have any guidelines for proper conduct. Thus, I scored a one in
+and didn't have any guidelines for proper conduct. Thus, I scored it a one in
 this category.
 
 For such a small and specific program, I was pleasantly surprised to find
@@ -175,7 +175,7 @@ score in the user base category.
 All of the projects I looked at for this paper were quite small. Though Nyx
 was still the biggest, it still is quite obscure and used by only a small
 minority of people. Nevertheless, the Tor community and by extension the
-Nyx community is very enthusiastic about what they do and the small part
+Nyx community are very enthusiastic about what they do and the small part
 they play towards the bigger Tor Project. I think this kind of community
 would be beneficial, not just for me, but for any enthusiastic person who
 supports the ideas nurtured by the Tor Project. I want to support this project
