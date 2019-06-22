@@ -27,11 +27,24 @@ built around use of that specific program.
 
 ## 5.
 
-
+Gopher's failure to quickly adapt caused by its lack of openness possible
+contributors probably did contribute to Gopher's collapse although, as the 
+rest of the article points out, Gopher had many other problems going for it.
+To blame any one flaw with Gopher for its downfall would be like finding
+one reason why Rome fell. Nevertheless, Gopher's the lack of openness was
+one of the many ways in which Gopher failed to attain the popularity to overtake
+the World Wide Web for dominance.
 
 ## 6.
 
+Android, being a modified version of the Linux kernel, must be open source
+due to the restrictions of Linux's GPLv2 License which dictates that derivative
+software must also remain licensed under the GPLv2 license. Linux is open
+source to emulate Unix while it was distributed freely after the original
+Unix software was brought back under proprietary license.
 
+https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_2
+https://en.wikipedia.org/wiki/Linux#Precursors
 
 ## 7.
 
