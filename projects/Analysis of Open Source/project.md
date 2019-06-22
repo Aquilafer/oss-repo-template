@@ -7,6 +7,7 @@
 ### Nyx
 
 https://nyx.torproject.org/
+
 https://gitweb.torproject.org/nyx.git/
 
 | Category               | Score | Explanation                                                                                                                                                                                                                                                                                                                                                        |
@@ -21,7 +22,9 @@ https://gitweb.torproject.org/nyx.git/
 | User Base              | 2     | Nyx seems to have a decent user base with many unaffiliated blogs talking about its use found after a quick Google.                                                                                                                                                                                                                                               |
 
 [1] https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority
+
 [2] https://blog.atagar.com/
+
 [3] https://nyx.torproject.org/
 
 ### Clickbait Chrome Extension (CCE)
