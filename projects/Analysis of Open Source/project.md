@@ -34,7 +34,23 @@ https://github.com/kool814/ClickbaitChromeExtension
 | Language               | 2     | CCE is mostly (81%) written in python.                                                                                                                                                                                              |
 | Level of Activity      | 2     | CCE has been active in the past two quarters since it was made.                                                                                                                                                                     |
 | Number of Contributors | 0     | There are only two contributors.                                                                                                                                                                                                    |
-| Project Size           | 2     | Although gitstats claims that CCE has over 42000 lines of code, a quick appraisal of the commits shows that almost all of that is probably a library or something while the actual user line count is almost certainly < 1000.      |
+| Project Size           | 2     | Although gitstats claims that CCE has over 42000 lines of code, a quick appraisal of the commits shows that almost all of that is probably a library or something while the actual user line count is almost certainly less than 1000.|
 | Issue Tracker          | 1     | There is only one listed issue and it is a question on how to install. It has been promptly answered which suggests that the lack of issues is due to the low user count.                                                           |
-| New Contributor        | 0     |  There is no website or any kind of text showing how to join the project. It seems like the duo is comfortable doing this alone.                                                                                                    |
-| User Base              | 1     |  Like I mentioned earlier, some people seem to be using it, and there are installation instructions, but the user base is obviously very small and the instructions amount to "download our code and manually run the python file". |
+| New Contributor        | 0     | There is no website or any kind of text showing how to join the project. It seems like the duo is comfortable doing this alone.                                                                                                    |
+| User Base              | 1     | Like I mentioned earlier, some people seem to be using it, and there are installation instructions, but the user base is obviously very small and the instructions amount to "download our code and manually run the python file". |
+
+
+### Music Ex Machina (MxM)
+
+https://github.com/MusicExMachina/MxM
+
+| Category               | Score | Explanation                                                                                                                                                                        |
+|------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Licensing              | 2     | MxM uses an MIT open source license.                                                                                                                                               |
+| Language               | 0     | MxM mostly uses a language called LilyPond with which I have no experience and will have to learn from scratch. The second most-commonly used is Java, my mortal enemy.           |
+| Level of Activity      | 0     | There have been no contributions to MxM in the past year                                                                                                                           |
+| Number of Contributors | 1     | MxM has 5 contributors                                                                                                                                                             |
+| Project Size           | 1     | MxM has 38610 lines of code.                                                                                                                                                       |
+| Issue Tracker          | 0     | Although the issue tracker for MxM isn't empty, none of it looks like bugs and it is all submitted by one of the developers.                                                      |
+| New Contributor        | 1     | MxM lacks a website, though does have a description on the github page. When the project was still active, new users joined up until the project's effective abandonment.         |
+| User Base              | 0     | I had signifigant trouble finding any substantial user base besides the developers. The only evidence of outside interest were from the watch and star counts on the github page. |
