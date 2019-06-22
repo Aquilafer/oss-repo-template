@@ -6,8 +6,7 @@
 
 ### Nyx
 
-https://nyx.torproject.org/
-
+https://nyx.torproject.org/ <br/>
 https://gitweb.torproject.org/nyx.git/
 
 | Category               | Score | Explanation                                                                                                                                                                                                                                                                                                                                                        |
@@ -21,10 +20,8 @@ https://gitweb.torproject.org/nyx.git/
 | New Contributor        | 2     | Nyx has a website [3] and an active dev blog [2] with a FAQ  including steps on how to get involved. The most recent developer joined in 2018.                                                                                                                                                                                                                    |
 | User Base              | 2     | Nyx seems to have a decent user base with many unaffiliated blogs talking about its use found after a quick Google.                                                                                                                                                                                                                                               |
 
-[1] https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority
-
-[2] https://blog.atagar.com/
-
+[1] https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority <br\>
+[2] https://blog.atagar.com/ <br\>
 [3] https://nyx.torproject.org/
 
 ### Clickbait Chrome Extension (CCE)
