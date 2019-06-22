@@ -23,3 +23,18 @@ https://gitweb.torproject.org/nyx.git/
 [1] https://trac.torproject.org/projects/tor/query?status=accepted&status=assigned&status=needs_review&status=new&status=reopened&component=Core+Tor%2FNyx&order=priority
 [2] https://blog.atagar.com/
 [3] https://nyx.torproject.org/
+
+### Clickbait Chrome Extension (CCE)
+
+https://github.com/kool814/ClickbaitChromeExtension
+
+| Category               | Score | Explanation                                                                                                                                                                                                                         |
+|------------------------|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Licensing              | 2     | CCE uses an MIT open source license.                                                                                                                                                                                                |
+| Language               | 2     | CCE is mostly (81%) written in python.                                                                                                                                                                                              |
+| Level of Activity      | 2     | CCE has been active in the past two quarters since it was made.                                                                                                                                                                     |
+| Number of Contributors | 0     | There are only two contributors.                                                                                                                                                                                                    |
+| Project Size           | 2     | Although gitstats claims that CCE has over 42000 lines of code, a quick appraisal of the commits shows that almost all of that is probably a library or something while the actual user line count is almost certainly < 1000.      |
+| Issue Tracker          | 1     | There is only one listed issue and it is a question on how to install. It has been promptly answered which suggests that the lack of issues is due to the low user count.                                                           |
+| New Contributor        | 0     |  There is no website or any kind of text showing how to join the project. It seems like the duo is comfortable doing this alone.                                                                                                    |
+| User Base              | 1     |  Like I mentioned earlier, some people seem to be using it, and there are installation instructions, but the user base is obviously very small and the instructions amount to "download our code and manually run the python file". |
