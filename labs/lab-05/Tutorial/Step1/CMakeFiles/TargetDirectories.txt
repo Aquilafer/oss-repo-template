@@ -1,0 +1,3 @@
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step1/CMakeFiles/rebuild_cache.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step1/CMakeFiles/Tutorial.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step1/CMakeFiles/edit_cache.dir

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step3/TutorialConfig.h
+
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step3/tutorial.cxx
+cmath
+-
+iostream
+-
+string
+-
+TutorialConfig.h
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step3/TutorialConfig.h
+MathFunctions.h
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step3/MathFunctions.h
+
+MathFunctions/MathFunctions.h
+

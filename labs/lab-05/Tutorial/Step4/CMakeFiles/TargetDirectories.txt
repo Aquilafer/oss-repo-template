@@ -1,0 +1,16 @@
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/install/strip.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/install/local.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/test.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/list_install_components.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/Tutorial.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/edit_cache.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/rebuild_cache.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/CMakeFiles/install.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/install/strip.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/install/local.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/test.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/list_install_components.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/MathFunctions.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/edit_cache.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/rebuild_cache.dir
+/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/cmake/Tests/Tutorial/Step4/MathFunctions/CMakeFiles/install.dir
