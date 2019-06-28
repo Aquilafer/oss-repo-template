@@ -4,17 +4,17 @@
 
 ### 1.
 
-*path to tutorial.cxx*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step1/tutorial.cxx
 
-*path to CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step1/CMakeLists.txt
 
 ![](Step_1.png)
 
 ### 2.
 
-*path to tutorial.cxx*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step2/tutorial.cxx
 
-*path to CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step2/CMakeLists.txt
 
 ![](Step_2.png)
 
@@ -41,24 +41,42 @@ sys 	0m0.524s
 
 ### 3.
 
-*path to CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step3/CMakeLists.txt
 
-*path to MathFuction/CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step3/MathFunctions/CMakeLists.txt
 
 ![](Step_3.png)
 
 ### 4.
 
-*path to CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step4/CMakeLists.txt
 
-*path to MathFuction/CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step4/MathFunctions/CMakeLists.txt
 
 ![](Step_4.png)
 
 ### 5.
 
-*path to CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step5/CMakeLists.txt
 
-*path to MathFuction/CMakeLists.txt*
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/Step5/MathFunctions/CMakeLists.txt
 
 ![](Step_5.png)
+
+## CMake Lab Example
+
+My Makefile: <\br>
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Lab-myMake/build/Makefile
+
+CMake CMakeLists.txt: <\br>
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Lab-CMake/build/CMakeLists.txt
+
+CMake Makefile: <\br>
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Lab-CMake/build/Makefile
+
+Size of program with shared library: 8208 B <\br>
+Size of program with static library: 8392 B
+
+Program output:
+
+![](program_output.png)
