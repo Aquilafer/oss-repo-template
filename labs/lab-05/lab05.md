@@ -65,16 +65,16 @@ https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Tutorial/
 
 ## CMake Lab Example
 
-My Makefile: <\br>
+My Makefile: <br />
 https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Lab-myMake/build/Makefile
 
-CMake CMakeLists.txt: <\br>
+CMake CMakeLists.txt: <br />
 https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Lab-CMake/build/CMakeLists.txt
 
-CMake Makefile: <\br>
+CMake Makefile: <br />
 https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-05/Lab-CMake/build/Makefile
 
-Size of program with shared library: 8208 B <\br>
+Size of program with shared library: 8208 B <br />
 Size of program with static library: 8392 B
 
 Program output:
