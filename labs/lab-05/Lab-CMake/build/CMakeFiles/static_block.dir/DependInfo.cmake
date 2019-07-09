@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/libstatic.dir/DependInfo.cmake"
+  "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

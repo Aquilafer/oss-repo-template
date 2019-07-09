@@ -4,7 +4,7 @@
 # compile C with /usr/lib64/ccache/cc
 C_FLAGS = -fPIC  
 
-C_DEFINES = -Dlibshared_EXPORTS
+C_DEFINES = -Dshared_EXPORTS
 
 C_INCLUDES = 
 

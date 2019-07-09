@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libstatic.a  CMakeFiles/static.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
+/usr/bin/ranlib lib/libstatic.a

@@ -39,8 +39,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/static_block.dir/DependInfo.cmake"
-  "CMakeFiles/libstatic.dir/DependInfo.cmake"
   "CMakeFiles/dynamic_block.dir/DependInfo.cmake"
-  "CMakeFiles/libshared.dir/DependInfo.cmake"
+  "CMakeFiles/static_block.dir/DependInfo.cmake"
+  "CMakeFiles/static.dir/DependInfo.cmake"
+  "CMakeFiles/shared.dir/DependInfo.cmake"
   )

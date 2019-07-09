@@ -1,1 +1,0 @@
-/usr/lib64/ccache/cc -fPIC   -shared -Wl,-soname,liblibshared.so -o liblibshared.so CMakeFiles/libshared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o 

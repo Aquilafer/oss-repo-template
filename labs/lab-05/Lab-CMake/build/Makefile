@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-te
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,32 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named static_block
-
-# Build rule for target.
-static_block: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 static_block
-.PHONY : static_block
-
-# fast build rule for target.
-static_block/fast:
-	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/build
-.PHONY : static_block/fast
-
-#=============================================================================
-# Target rules for targets named libstatic
-
-# Build rule for target.
-libstatic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libstatic
-.PHONY : libstatic
-
-# fast build rule for target.
-libstatic/fast:
-	$(MAKE) -f CMakeFiles/libstatic.dir/build.make CMakeFiles/libstatic.dir/build
-.PHONY : libstatic/fast
-
-#=============================================================================
 # Target rules for targets named dynamic_block
 
 # Build rule for target.
@@ -150,17 +124,43 @@ dynamic_block/fast:
 .PHONY : dynamic_block/fast
 
 #=============================================================================
-# Target rules for targets named libshared
+# Target rules for targets named static_block
 
 # Build rule for target.
-libshared: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libshared
-.PHONY : libshared
+static_block: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 static_block
+.PHONY : static_block
 
 # fast build rule for target.
-libshared/fast:
-	$(MAKE) -f CMakeFiles/libshared.dir/build.make CMakeFiles/libshared.dir/build
-.PHONY : libshared/fast
+static_block/fast:
+	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/build
+.PHONY : static_block/fast
+
+#=============================================================================
+# Target rules for targets named static
+
+# Build rule for target.
+static: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 static
+.PHONY : static
+
+# fast build rule for target.
+static/fast:
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/build
+.PHONY : static/fast
+
+#=============================================================================
+# Target rules for targets named shared
+
+# Build rule for target.
+shared: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shared
+.PHONY : shared
+
+# fast build rule for target.
+shared/fast:
+	$(MAKE) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/build
+.PHONY : shared/fast
 
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.o: common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.o
 
@@ -168,8 +168,8 @@ common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/La
 
 # target to build an object file
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.o:
-	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.o
 	$(MAKE) -f CMakeFiles/dynamic_block.dir/build.make CMakeFiles/dynamic_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.o
+	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.o
 .PHONY : common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.o
 
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.i: common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.i
@@ -178,8 +178,8 @@ common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/La
 
 # target to preprocess a source file
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.i:
-	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.i
 	$(MAKE) -f CMakeFiles/dynamic_block.dir/build.make CMakeFiles/dynamic_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.i
+	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.i
 .PHONY : common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.i
 
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.s: common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.s
@@ -188,8 +188,8 @@ common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/La
 
 # target to generate assembly for a file
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.s:
-	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.s
 	$(MAKE) -f CMakeFiles/dynamic_block.dir/build.make CMakeFiles/dynamic_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.s
+	$(MAKE) -f CMakeFiles/static_block.dir/build.make CMakeFiles/static_block.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.s
 .PHONY : common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.c.s
 
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.o: common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
@@ -198,8 +198,8 @@ common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/La
 
 # target to build an object file
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o:
-	$(MAKE) -f CMakeFiles/libstatic.dir/build.make CMakeFiles/libstatic.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
-	$(MAKE) -f CMakeFiles/libshared.dir/build.make CMakeFiles/libshared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
+	$(MAKE) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
 .PHONY : common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o
 
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.i: common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i
@@ -208,8 +208,8 @@ common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/La
 
 # target to preprocess a source file
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i:
-	$(MAKE) -f CMakeFiles/libstatic.dir/build.make CMakeFiles/libstatic.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i
-	$(MAKE) -f CMakeFiles/libshared.dir/build.make CMakeFiles/libshared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i
+	$(MAKE) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i
 .PHONY : common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.i
 
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.s: common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s
@@ -218,8 +218,8 @@ common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/La
 
 # target to generate assembly for a file
 common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s:
-	$(MAKE) -f CMakeFiles/libstatic.dir/build.make CMakeFiles/libstatic.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s
-	$(MAKE) -f CMakeFiles/libshared.dir/build.make CMakeFiles/libshared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s
+	$(MAKE) -f CMakeFiles/static.dir/build.make CMakeFiles/static.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s
+	$(MAKE) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s
 .PHONY : common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.s
 
 # Help Target
@@ -228,12 +228,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... static_block"
-	@echo "... libstatic"
 	@echo "... edit_cache"
 	@echo "... dynamic_block"
-	@echo "... libshared"
+	@echo "... static_block"
+	@echo "... static"
+	@echo "... rebuild_cache"
+	@echo "... shared"
 	@echo "... common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.o"
 	@echo "... common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.i"
 	@echo "... common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/program.s"

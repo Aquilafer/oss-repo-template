@@ -15,14 +15,41 @@ The C compiler identification is GNU, found in "/common/College/3S1-Junior/Open 
 Determining if the C compiler works passed with the following output:
 Change Dir: /common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6b339/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6b339.dir/build.make CMakeFiles/cmTC_6b339.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_acdbe/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_acdbe.dir/build.make CMakeFiles/cmTC_acdbe.dir/build
 gmake[1]: Entering directory '/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b339.dir/testCCompiler.c.o
-/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_6b339.dir/testCCompiler.c.o   -c "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_6b339
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b339.dir/link.txt --verbose=1
-/usr/lib64/ccache/cc      -rdynamic CMakeFiles/cmTC_6b339.dir/testCCompiler.c.o  -o cmTC_6b339 
+Building C object CMakeFiles/cmTC_acdbe.dir/testCCompiler.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_acdbe.dir/testCCompiler.c.o   -c "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_acdbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acdbe.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      -rdynamic CMakeFiles/cmTC_acdbe.dir/testCCompiler.c.o  -o cmTC_acdbe 
+gmake[1]: Leaving directory '/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib64/ccache/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/3.11.0/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7fbdd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7fbdd.dir/build.make CMakeFiles/cmTC_7fbdd.dir/build
+gmake[1]: Entering directory '/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7fbdd.dir/testCXXCompiler.cxx.o
+/usr/lib64/ccache/c++     -o CMakeFiles/cmTC_7fbdd.dir/testCXXCompiler.cxx.o -c "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_7fbdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fbdd.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++       -rdynamic CMakeFiles/cmTC_7fbdd.dir/testCXXCompiler.cxx.o  -o cmTC_7fbdd 
 gmake[1]: Leaving directory '/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/CMakeTmp'
 
 

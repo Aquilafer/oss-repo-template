@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c" "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/libstatic.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o"
+  "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c" "/common/College/3S1-Junior/Open Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/build/CMakeFiles/static.dir/common/College/3S1-Junior/Open_Source/git_stuff/oss-repo-template/labs/lab-05/Lab-CMake/source/block.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
