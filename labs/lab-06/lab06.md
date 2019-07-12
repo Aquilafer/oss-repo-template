@@ -141,7 +141,7 @@ Successfully built bd25d1843450
 172.17.0.1 - - [12/Jul/2019 18:39:09] "GET / HTTP/1.1" 200 -
 ```
 
-![](localhost:5000.png)
+![](./localhost:5000.png)
 
 4. https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-06/docker-examples/example04/messageApp/Dockerfile
 
