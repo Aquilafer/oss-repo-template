@@ -358,7 +358,7 @@ app_1    | debug: -------------------------------------------------------
   "createdAt": 1562959070658,
   "updatedAt": 1562959070658,
   "id": "5d28dcde3150327ffc6b84c6"
-}(base) [Thomas@chikadee-407 ~]$ curl -XPOST http://localhost:1337/message?text=ola
+}(base) [Thomas@chikadee-407 ~]$ curl -XPOST http://localhost:1337/message?text=hola
 {
   "text": "hola",
   "createdAt": 1562959081790,
