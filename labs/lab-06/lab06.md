@@ -33,10 +33,30 @@ Status: Downloaded newer image for docker.io/docker/whalesay:latest
        \______ o          __/            
         \    \        __/             
           \____\______/   
-
 ````
 
 1. 
+
+```
+root@57294e755213:/# cd root
+root@57294e755213:~# touch test.txt
+root@57294e755213:~# vim test.txt
+root@57294e755213:~# cat test.txt 
+I am writting suff here to test vim
+```
+
+```
+root@57294e755213:~# su
+root@57294e755213:~# cowsay "moo!"
+ ______
+< moo! >
+ ------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
 2. 
 
