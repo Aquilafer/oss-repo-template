@@ -2,14 +2,51 @@
 
 ## Docker
 
+0. 
+
+````
+[root@chikadee-407 messageApp]# docker run docker/whalesay cowsay boo
+Unable to find image 'docker/whalesay:latest' locally
+Trying to pull repository docker.io/docker/whalesay ... 
+sha256:178598e51a26abbc958b8a2e48825c90bc22e641de3d31e18aaf55f3258ba93b: Pulling from docker.io/docker/whalesay
+e190868d63f8: Pull complete 
+909cd34c6fd7: Pull complete 
+0b9bfabab7c1: Pull complete 
+a3ed95caeb02: Pull complete 
+00bf65475aba: Pull complete 
+c57b6bcc83e3: Pull complete 
+8978f6879e2f: Pull complete 
+8eed3712d2cf: Pull complete 
+Digest: sha256:178598e51a26abbc958b8a2e48825c90bc22e641de3d31e18aaf55f3258ba93b
+Status: Downloaded newer image for docker.io/docker/whalesay:latest
+ _____ 
+< boo >
+ ----- 
+    \
+     \
+      \     
+                    ##        .            
+              ## ## ##       ==            
+           ## ## ## ##      ===            
+       /""""""""""""""""___/ ===        
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
+       \______ o          __/            
+        \    \        __/             
+          \____\______/   
+
+````
+
 1. 
 
 2. 
 
 3. 
 
-4. 
-````bash
+4. https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-06/docker-examples/example04/messageApp/Dockerfile
+
+Ouput before adding .yml file:
+
+````
 [root@nagini-337 example04]# docker run message-app
 debug: The `sails.config.models.connection` setting is deprecated.  Please use `sails.config.models.datastore` instead.
 debug: For more info, see http://sailsjs.com/documentation/upgrading/to-v-1-0/#?changes-to-database-configuration
@@ -56,3 +93,5 @@ MongoError: failed to connect to server [localhost:27017] on first connect [Mong
     at /app/node_modules/mongodb/lib/mongo_client.js:335:11
     at process._tickCallback (internal/process/next_tick.js:61:11)
 ````
+
+https://github.com/Aquilafer/oss-repo-template/blob/master/labs/lab-06/docker-examples/example04/messageApp/docker-compose.yml
