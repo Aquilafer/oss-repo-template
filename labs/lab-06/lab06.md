@@ -9,7 +9,7 @@
 3. 
 
 4. 
-```bash
+````bash
 [root@nagini-337 example04]# docker run message-app
 debug: The `sails.config.models.connection` setting is deprecated.  Please use `sails.config.models.datastore` instead.
 debug: For more info, see http://sailsjs.com/documentation/upgrading/to-v-1-0/#?changes-to-database-configuration
@@ -33,7 +33,7 @@ error: Could not tear down the ORM hook.  Error details: Error: Consistency viol
     at Sails.lower (/app/node_modules/sails/lib/app/lower.js:49:3)
     at Sails.wrapper [as lower] (/app/node_modules/@sailshq/lodash/lib/index.js:3275:19)
 error: Failed to lift app: Error: Consistency violation: Unexpected error creating db connection manager:
-!`!`!`
+```
 MongoError: failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
     at flaverr (/app/node_modules/flaverr/index.js:94:15)
     at Function.module.exports.parseError (/app/node_modules/flaverr/index.js:371:12)
@@ -42,7 +42,7 @@ MongoError: failed to connect to server [localhost:27017] on first connect [Mong
     at connectCallback (/app/node_modules/mongodb/lib/mongo_client.js:428:5)
     at /app/node_modules/mongodb/lib/mongo_client.js:335:11
     at process._tickCallback (internal/process/next_tick.js:61:11)
-!`!`!`
+```
     at Object.error (/app/node_modules/sails-mongo/lib/index.js:268:21)
     at /app/node_modules/machine/lib/private/help-build-machine.js:1514:39
     at proceedToFinalAfterExecLC (/app/node_modules/parley/lib/private/Deferred.js:1149:14)
@@ -55,4 +55,4 @@ MongoError: failed to connect to server [localhost:27017] on first connect [Mong
     at connectCallback (/app/node_modules/mongodb/lib/mongo_client.js:428:5)
     at /app/node_modules/mongodb/lib/mongo_client.js:335:11
     at process._tickCallback (internal/process/next_tick.js:61:11)
-```
+````
