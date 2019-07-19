@@ -60,7 +60,7 @@ root@57294e755213:~# cowsay "moo!"
 
 2. 
 
-![](./localhost:5000.png)
+![](./localhost:3000.png)
 
 3.
 
