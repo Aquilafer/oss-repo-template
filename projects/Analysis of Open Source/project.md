@@ -155,7 +155,7 @@ with at least five people and 15 replies; only the blog post hit 15 replies
 aside from the original question. I'm not exactly happy with the number of
 samples I've found, though all of the ones I did find were extremely polite
 with users giving patient answers and thanking each other for any help with
-their problem. I eventually tried  broadening my horizon to the Tor community
+their problem. I eventually tried broadening my horizon to the Tor community
 in large, but I still didn't find very much. Apparently, the community is
 so obscure that the first Google search for "tor community" is to a Star
 Wars site [12]. Overall, I wanted to give the Nyx community a perfect score
@@ -180,7 +180,7 @@ they play towards the bigger Tor Project. I think this kind of community
 would be beneficial, not just for me, but for any enthusiastic person who
 supports the ideas nurtured by the Tor Project. I want to support this project
 because it supports the ideals of internet privacy and anti-censorship that
-I uphold.
+I uphold and from my analysis, the community mostly feels the same way.
 
 
 [1] https://gitweb.torproject.org/nyx.git/tree/LICENSE
